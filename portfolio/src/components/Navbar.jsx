@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <img src={logo} alt="Logo" className="w-40 h-20" />
         <div>
-          <ul className="flex space-x-4 text-[#373A40] mt-2 text-xl">
+          <ul className="flex space-x-4 text-[#000000] mt-2 text-xl">
             <li>
               <a href="#projects">Home</a>
             </li>
@@ -27,6 +27,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <hr className="border-black" />
     </nav>
   );
 };
