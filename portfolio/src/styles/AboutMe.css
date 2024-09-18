@@ -1,0 +1,26 @@
+.about-me {
+  position: relative;
+  display: inline-block;
+}
+
+.about-me::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px; /* Adjust the height of the black box */
+  background-color: black;
+  z-index: -1; /* Ensures it stays behind the text */
+}
+
+.about-me h1 {
+  margin: 0;
+  position: relative;
+}
+
+.custom-underline {
+  text-decoration: underline;
+  text-decoration-color: #db4a2b; /* Custom underline color */
+  text-decoration-thickness: 2px; /* Custom underline thickness */
+}

@@ -9,11 +9,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-<<<<<<< HEAD
-      <Hero />
-=======
       <AboutMe />
->>>>>>> 7a101c2e66603be0b2f72638ccbe8e6c6e6ee939
     </>
   );
 }

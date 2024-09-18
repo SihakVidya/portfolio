@@ -16,7 +16,7 @@ const Navbar = () => {
               <a href="#projects">About Me</a>
             </li>
             <li>
-              <a href="#contact">Experience</a>
+              <a href="#contact">Skills</a>
             </li>
             <li>
               <a href="#contact">Projects</a>

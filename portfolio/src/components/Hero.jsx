@@ -1,12 +1,13 @@
 import React from "react";
 import profile from "../assets/profile.jpg";
 import "../styles/Navbar.css";
+import "../styles/FadeIn.css";
 
 const Hero = () => {
   return (
     <section>
       <div class="hero min-h-[60vh] mt-0 bg-secondary py-8">
-        <div class="hero-content flex-col lg:flex-row-reverse px-60 gap-x-60">
+        <div class="hero-content flex-col lg:flex-row-reverse px-60 gap-x-60 fade-in-animation">
           <img
             src={profile}
             class="max-w-sm shadow-2xl border-2 border-gray-800"
@@ -29,6 +30,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <hr className="border-black mx-10"></hr>
     </section>
   );
 };
