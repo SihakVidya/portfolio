@@ -1,7 +1,6 @@
 import React from "react";
-import "../styles/AboutMe.css";
 
-const AboutMe = () => {
+const SkillPage = () => {
   return (
     <section>
       <div class="hero min-h-[60vh] bg-secondary py-0">
@@ -32,9 +31,8 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <hr className="border-black mx-10"></hr>
     </section>
   );
 };
 
-export default AboutMe;
+export default SkillPage;
