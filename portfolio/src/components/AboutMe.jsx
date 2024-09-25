@@ -4,13 +4,13 @@ import "../styles/AboutMe.css";
 const AboutMe = () => {
   return (
     <section>
-      <div class="hero min-h-[60vh] bg-secondary py-0">
+      <div class="hero min-h-[50vh] bg-black py-0">
         <div class="hero-content flex-col lg:flex-row px-10">
           <div className="mb-20">
-            <div className="about-me mb-10">
+            <div className=" mb-10">
               <h1 class="text-6xl font-display text-primary">About Me</h1>
             </div>
-            <p class="text-xl text-black font-medium">
+            <p class="text-xl text-white font-medium">
               My name is Vityea, I am a{" "}
               <span className="custom-underline">
                 web developer and tech educator
@@ -32,7 +32,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <hr className="border-black mx-10"></hr>
+      <hr className="border-third mx-10"></hr>
     </section>
   );
 };

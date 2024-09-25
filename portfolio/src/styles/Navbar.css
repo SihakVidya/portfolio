@@ -1,14 +1,27 @@
-a {
+nav a {
   background: linear-gradient(currentColor 0 0) bottom left/
     var(--underline-width, 0%) 0.1em no-repeat;
-  color: #f80;
+  color: black;
   display: inline-block;
   padding: 0 0.5em 0.2em;
   text-decoration: none;
   transition: background-size 0.5s;
 }
 
-a:hover {
+.cool-underline a:hover {
   --underline-width: 100%;
   color: #db4a2b;
+}
+
+.cool-underline2 a:hover {
+  --underline-width: 100%;
+  color: white;
+}
+
+.cool-underline2 a {
+  background: linear-gradient(currentColor 0 0) bottom left/
+    var(--underline-width, 0%) 0.1em no-repeat;
+  color: #db4a2b;
+  text-decoration: none;
+  transition: background-size 0.5s;
 }

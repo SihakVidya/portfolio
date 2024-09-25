@@ -4,10 +4,10 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="bg-secondary p-3">
+    <nav className="p-3">
       <div className="container mx-auto flex justify-between items-center">
         <img src={logo} alt="Logo" className="w-40 h-20" />
-        <div>
+        <div className="cool-underline">
           <ul className="flex space-x-4 text-[#000000] mt-2 text-xl">
             <li>
               <a href="#projects">Home</a>

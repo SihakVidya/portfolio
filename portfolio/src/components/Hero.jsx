@@ -8,19 +8,19 @@ import { ReactTyped } from "react-typed";
 const Hero = () => {
   return (
     <section>
-      <div class="hero min-h-[60vh] mt-0 bg-secondary py-8">
+      <div class="hero min-h-[60vh] mt-0 py-8">
         <div class="hero-content flex-col lg:flex-row-reverse px-60 gap-x-60">
           <img
             src={profile}
             class="max-w-sm shadow-2xl border-2 border-gray-800 fade-in-animation"
           />
-          <div>
+          <div className="cool-underline2">
             <h1 class="text-6xl text-black mb-3">Hello, I'm</h1>
             <div style={{ width: "500px" }}>
               {" "}
               {/* Adjust this width to your content's length */}
               <h1 className="font-display text-6xl text-primary whitespace-nowrap mb-4">
-                <ReactTyped strings={["Sam Sihak Vityea"]} typeSpeed={50} />
+                <ReactTyped strings={["Sam Sihak Vityea"]} typeSpeed={100} />
               </h1>
             </div>
             <h1 class="text-3xl text-black mb-9">
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <hr className="border-black mx-10"></hr>
+      <hr className="border-third mx-10"></hr>
     </section>
   );
 };
