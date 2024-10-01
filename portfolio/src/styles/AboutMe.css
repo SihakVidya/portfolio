@@ -14,13 +14,23 @@
   z-index: -1; /* Ensures it stays behind the text */
 }
 
-.about-me h1 {
-  margin: 0;
-  position: relative;
+.about-me-text {
+  font-size: 3.25rem;
 }
 
 .custom-underline {
   text-decoration: underline;
   text-decoration-color: #db4a2b; /* Custom underline color */
   text-decoration-thickness: 2px; /* Custom underline thickness */
+}
+
+@media (max-width: 640px) {
+  .about-me-text {
+    font-size: 2.25rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 0.25rem;
+  }
 }

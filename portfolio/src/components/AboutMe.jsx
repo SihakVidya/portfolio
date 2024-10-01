@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div class="hero-content flex-col px-10">
           <div className="mb-20">
             <div className="mb-10">
-              <h1 class="text-6xl font-display text-primary">About Me</h1>
+              <h1 class="font-display text-primary about-me-text">About Me</h1>
             </div>
             <p class="text-xl text-white font-medium">
               My name is Vityea, I am a{" "}
