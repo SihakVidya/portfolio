@@ -7,7 +7,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="hero">
       <div class="hero min-h-[60vh] mt-0 py-8">
         <div class="hero-content flex-col lg:flex-row-reverse px-60 gap-x-60">
           <img
@@ -27,7 +27,7 @@ const Hero = () => {
               web developer & tech educator
             </h1>
             <button class="bg-black text-white font-semibold py-2 px-6 border border-black hover:border-transparent mr-3">
-              Contact Me
+              <a href="#contact">Contact Me</a>
             </button>
             <button>
               <a

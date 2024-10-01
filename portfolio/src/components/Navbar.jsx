@@ -10,16 +10,16 @@ const Navbar = () => {
         <div className="cool-underline">
           <ul className="flex space-x-4 text-[#000000] mt-2 text-xl">
             <li>
-              <a href="#projects">Home</a>
+              <a href="#hero">Home</a>
             </li>
             <li>
-              <a href="#projects">About Me</a>
+              <a href="#about-me">About Me</a>
             </li>
             <li>
-              <a href="#contact">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#contact">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#contact">Contact</a>

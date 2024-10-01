@@ -1,0 +1,13 @@
+@media (max-width: 640px) {
+  .project-intro p {
+    font-size: 1.2rem;
+  }
+
+  .project-intro {
+    padding-right: 40rem;
+  }
+
+  .projects-list {
+    margin-left: 5rem;
+  }
+}

@@ -29,7 +29,7 @@ const SkillPage = () => {
   const otherTech = ["Figma", "Canva", "Adobe AI", "Github"]; // Added GitHub for Others
 
   return (
-    <section>
+    <section id="skills">
       <div className="hero min-h-[60vh]  py-0">
         <div className="hero-content w-[80rem] flex flex-col items-start px-[2rem] my-20">
           <div className="about-me mb-10">

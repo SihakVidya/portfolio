@@ -3,7 +3,7 @@ import "../styles/AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section id="about-me">
       <div class="hero min-h-[50vh] bg-black py-0">
         <div class="hero-content flex-col lg:flex-row px-10">
           <div className="mb-20">

@@ -1,5 +1,17 @@
+/* Grid container for the projects */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default: 4 cards per row */
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+  max-width: 1200px; /* Set a max-width to avoid stretching */
+  margin-left: auto; /* Center the grid */
+  margin-right: auto; /* Center the grid */
+}
+
+/* Style for each project card */
 .project-card-container {
-  width: 320px;
+  width: 100%; /* Grid will control width */
   height: 350px;
   background-color: #e64a19;
   position: relative;
@@ -8,7 +20,6 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   border: 2px solid #000000;
   transition: transform 0.3s ease-in-out;
@@ -28,10 +39,10 @@
 /* Adjusting the buttons container to the bottom-right */
 .project-buttons {
   position: absolute;
-  bottom: 10px; /* Align buttons to the bottom */
-  right: 10px; /* Align buttons to the right */
+  bottom: 10px;
+  right: 10px;
   display: flex;
-  gap: 10px; /* Space between the buttons */
+  gap: 10px;
 }
 
 .project-label-box {
@@ -51,4 +62,33 @@
 
 .project-technologies {
   white-space: pre-wrap;
+}
+
+/* Media Queries */
+
+/* At 1290px, show 3 cards per row */
+@media (max-width: 1290px) {
+  .projects-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  }
+  .project-card-container {
+    width: 85%;
+  }
+}
+
+/* At 960px, show 2 cards per row */
+@media (max-width: 1175px) {
+  .projects-list {
+    grid-template-columns: repeat(1, 1fr); /* 2 cards per row */
+  }
+  .project-card-container {
+    width: 30%;
+  }
+}
+
+/* At 640px and below, show 1 card per row */
+@media (max-width: 640px) {
+  .projects-list {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row */
+  }
 }
