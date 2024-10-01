@@ -35,7 +35,7 @@ const SkillPage = () => {
           <div className="about-me mb-10">
             <h1 className="text-6xl font-display text-primary">Skills</h1>
           </div>
-          <div className="skills-list grid grid-cols-4 gap-8 mt-10">
+          <div className="skills-list">
             <SkillCard title="Front-End" technologies={frontendTech} />
             <SkillCard title="Back-End" technologies={backendTech} />
             <SkillCard title="Deployment" technologies={deploymentTech} />

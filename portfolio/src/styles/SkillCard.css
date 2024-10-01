@@ -1,3 +1,13 @@
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default: 4 cards per row */
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+  max-width: 1200px; /* Set a max-width to avoid stretching */
+  margin-left: auto; /* Center the grid */
+  margin-right: auto; /* Center the grid */
+}
+
 .card-container {
   width: 300px; /* Set card size */
   height: 300px; /* Set card height equal to width to make it square */
@@ -50,4 +60,12 @@
 .hover-shadow:hover {
   transform: scale(1.1); /* Slightly increase size on hover */
   color: black; /* Change icon color on hover */
+}
+
+@media (max-width: 640px) {
+  .skills-list {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row */
+    margin-left: 0; /* Center the grid */
+    margin-right: 0; /* Center the grid */
+  }
 }
