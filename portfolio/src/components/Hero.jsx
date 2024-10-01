@@ -10,14 +10,14 @@ const Hero = () => {
   return (
     <section id="hero">
       <div class="hero min-h-[60vh] mt-0 py-8">
-        <div class="hero-content flex-col lg:flex-row-reverse gap-x-60">
+        <div class="hero-content lg:flex-row-reverse gap-x-40">
           <img
             src={profile}
             class="profile max-w-sm shadow-2xl border-2 border-gray-800 fade-in-animation"
           />
           <div className="cool-underline2">
             <h1 class=" text-intro-1 text-black mb-3">Hello, I'm</h1>
-            <div style={{ width: "500px" }}>
+            <div>
               {" "}
               {/* Adjust this width to your content's length */}
               <h1 className=" text-intro-2 font-display text-primary whitespace-nowrap mb-4">

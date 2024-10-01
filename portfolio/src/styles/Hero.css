@@ -32,4 +32,16 @@
     font-size: 1.25rem;
     line-height: 1;
   }
+
+  .hero-content {
+    gap: 0;
+  }
+
+  .profile {
+    align-self: flex-start;
+  }
+
+  .hero .h1 {
+    text-align: center;
+  }
 }
