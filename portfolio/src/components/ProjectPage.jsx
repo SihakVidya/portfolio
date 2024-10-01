@@ -31,7 +31,7 @@ const ProjectPage = () => {
   return (
     <section id="projects">
       <div className="hero min-h-[60vh] py-0">
-        <div className="hero-content w-[80rem] flex flex-col items-start px-[2rem] my-20">
+        <div className="hero-content flex flex-col items-start px-[2rem] my-20">
           <div className="about-me mb-10">
             <h1 className="text-6xl font-display text-primary">Projects</h1>
           </div>
@@ -41,7 +41,7 @@ const ProjectPage = () => {
               the passage of time, but this is what I could recover.
             </p>
           </div>
-          <div className="projects-list ml-0">
+          <div className="projects-list">
             <ProjectCard
               title="Krukit"
               description={`Krukit is an assistive classroom management toolkit

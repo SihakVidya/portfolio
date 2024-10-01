@@ -10,6 +10,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 function App() {
   return (
     <>
+      <Navbar />
+      <Hero id="hero" />
       <AboutMe id="about" />
       <SkillPage id="skills" />
       <ProjectPage id="projects" />

@@ -15,7 +15,7 @@ const ContactMe = () => {
   return (
     <section id="contact">
       <div className="hero min-h-[40vh] py-0">
-        <div className="hero-content w-[80rem] flex flex-col items-start px-[2rem] my-10">
+        <div className="hero-content flex flex-col items-start px-[2rem] my-10">
           <div className="about-me mb-10">
             <h1 className="text-6xl font-display text-primary ">Contact Me</h1>
           </div>
