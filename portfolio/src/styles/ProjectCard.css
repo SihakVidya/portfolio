@@ -76,16 +76,6 @@
   }
 }
 
-/* At 960px, show 2 cards per row */
-@media (max-width: 1175px) {
-  .projects-list {
-    grid-template-columns: repeat(1, 1fr); /* 2 cards per row */
-  }
-  .project-card-container {
-    width: 30%;
-  }
-}
-
 /* At 640px and below, show 1 card per row */
 @media (max-width: 640px) {
   .projects-list {
