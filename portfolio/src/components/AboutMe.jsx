@@ -5,9 +5,9 @@ const AboutMe = () => {
   return (
     <section id="about-me">
       <div class="hero min-h-[50vh] bg-black py-0">
-        <div class="hero-content flex-col lg:flex-row px-10">
+        <div class="hero-content flex-col px-10">
           <div className="mb-20">
-            <div className=" mb-10">
+            <div className="mb-10">
               <h1 class="text-6xl font-display text-primary">About Me</h1>
             </div>
             <p class="text-xl text-white font-medium">

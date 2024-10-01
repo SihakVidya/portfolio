@@ -31,7 +31,7 @@ const SkillPage = () => {
   return (
     <section id="skills">
       <div className="hero min-h-[60vh]  py-0">
-        <div className="hero-content flex flex-col items-start px-[2rem] my-20">
+        <div className="hero-content flex flex-col px-[2rem] my-20">
           <div className="about-me mb-10">
             <h1 className="text-6xl font-display text-primary">Skills</h1>
           </div>

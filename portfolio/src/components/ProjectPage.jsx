@@ -31,7 +31,7 @@ const ProjectPage = () => {
   return (
     <section id="projects">
       <div className="hero min-h-[60vh] py-0">
-        <div className="hero-content flex flex-col items-start px-[2rem] my-20">
+        <div className="hero-content px-[2rem] my-20">
           <div className="about-me mb-10">
             <h1 className="text-6xl font-display text-primary">Projects</h1>
           </div>
