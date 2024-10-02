@@ -56,8 +56,8 @@ const ProjectPage = () => {
               title="This Portfolio Site"
               description="This is the site you are currently on. I built this site for fun as a side project and a place where people can get to know me more. This site's design was heavily inspired by the Tau Empire from Warhammer 40k (yes i'm a nerd)."
               techs={`> Frontend: React, Tailwind CSS, DaisyUI\n> Deployment: Vercel`}
-              liveLink="https://backend-project-live.com"
-              codeLink="https://backend-project-live.com"
+              liveLink="https://vityea.vercel.app"
+              codeLink="https://github.com/SihakVidya/portfolio"
             />
             <ProjectCard
               title="Employee Portal Subsystem"
