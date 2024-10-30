@@ -3,7 +3,7 @@ import profile from "../assets/profile.jpg";
 import "../styles/Navbar.css";
 import "../styles/FadeIn.css";
 import "../styles/Hero.css";
-import cv from "../assets/CV.pdf";
+import cv from "../assets/SihakVityeaSam-CV (2).pdf";
 import { ReactTyped } from "react-typed";
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
             <button>
               <a
                 href={cv}
-                download="SihakVityeaSam-CV (2).pdf"
+                download="Sam_Sihak_Vityea_CV.pdf"
                 className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent inline-flex items-center"
               >
                 Download CV
