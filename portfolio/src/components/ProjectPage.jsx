@@ -83,6 +83,12 @@ const ProjectPage = () => {
               techs={`> Frontend: React, TailwindCSS \n> Backend: Mock Json Server`}
               codeLink="https://github.com/SihakVidya/ReactJobsCambodia.git"
             />
+            <ProjectCard
+              title="Expense Tracker"
+              description="Idk what to say, it tracks your expenses i guess. It's a simple project to test the amazing ShadCN."
+              techs={`> Frontend: React, TailwindCSS, ShadCN \n> Backend: Express, PostgreSQL`}
+              codeLink="https://github.com/SihakVidya/ExpenseTracker"
+            />
           </div>
         </div>
       </div>
