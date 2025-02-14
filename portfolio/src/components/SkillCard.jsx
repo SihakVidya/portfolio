@@ -14,8 +14,8 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import {
+  SiExpress,
   SiTailwindcss,
-  SiPrisma,
   SiPostgresql,
   SiDigitalocean,
   SiNginx,
@@ -24,10 +24,15 @@ import {
   SiWix,
   SiVercel,
   SiCloudflare,
+  SiMicrosoftsqlserver,
+  SiDotnet,
+  SiAzuredevops,
 } from "react-icons/si";
 import "../styles/SkillCard.css";
 
 const icons = {
+  Express: <SiExpress />,
+  PostgreSQL: <SiPostgresql />,
   HTML: <FaHtml5 />,
   CSS: <FaCss3Alt />,
   Javascript: <FaJs />,
@@ -55,13 +60,14 @@ const icons = {
       <path d="M15 6.5l7 -1.5l-10 17l-10 -17l7.741 1.5" />
     </svg>
   ),
-  PostgreSQL: <SiPostgresql />,
-  Prisma: <SiPrisma />,
+  "ASP.NET Core Web API": <SiDotnet />, // New logo for ASP.NET Core Web API
+  "Microsoft SQL Server": <SiMicrosoftsqlserver />, // New logo for Microsoft SQL Server
   Docker: <FaDocker />,
   Git: <FaGitAlt />,
   Linux: <FaLinux />,
   Digitalocean: <SiDigitalocean />,
   Nginx: <SiNginx />,
+  Azure: <SiAzuredevops />, // New logo for Azure
   Vercel: <SiVercel />, // New logo for Vercel
   Cloudflare: <SiCloudflare />, // New logo for Cloudflare
   Figma: <FaFigma />,

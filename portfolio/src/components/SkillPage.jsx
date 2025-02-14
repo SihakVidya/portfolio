@@ -14,7 +14,12 @@ const SkillPage = () => {
     "Wix", // Added Wix for Frontend
   ];
 
-  const backendTech = ["Node", "Vite", "PostgreSQL", "Prisma"];
+  const backendTech = [
+    "Express",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "ASP.NET Core Web API",
+  ];
 
   const deploymentTech = [
     "Docker",
@@ -23,7 +28,8 @@ const SkillPage = () => {
     "Digitalocean",
     "Nginx",
     "Vercel", // Added Vercel for Deployment
-    "Cloudflare", // Added Cloudflare for Deployment
+    "Cloudflare",
+    "Azure", // Added Cloudflare for Deployment
   ];
 
   const otherTech = ["Figma", "Canva", "Adobe AI", "Github"]; // Added GitHub for Others
